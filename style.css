@@ -1,0 +1,134 @@
+
+    /* for-navigation */
+
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background: #0c0808;
+        opacity: 0.6;
+    }
+    
+    .nav-item{
+        padding: 5px 20px 0 20px;
+        font-size: 13px;
+        font-weight: 700;
+        margin: 20px 45px 20px 45px;
+        text-transform: uppercase;
+        line-height: 25px;
+    }
+    .nav-link{
+        color: black;
+    }
+    .for-navbar--position{
+        margin: auto;
+    }
+    .for--navigation-transparent{
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        right: 0;
+        left: 0;
+    }
+    .for--content{
+        position: absolute;
+        top: 200px;
+        z-index: 13;
+        right: 0;
+        left: 0;
+        opacity: 15 ;
+        margin: auto;
+        text-align: center;
+    }
+    .for--content-small-image{
+        position: absolute;
+        top: 50px;
+        z-index: 13;
+        right: 0;
+        left: 0;
+        opacity: 15 ;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .nav--text{
+        font-size: 30px;
+        font-weight: 900;
+        margin: 0 0 50px 0;
+        color: #00b4d9;
+    }
+    .nav--text:hover{
+        transition: all 0.4s ease-in-out;
+    }
+    .nav--name{
+        font-size: 50px;
+        font-weight: 600;
+        color:#00b4d9;
+        margin: 0 0 50px 0;
+    }
+    
+        /* for-about */
+    
+    .for--info{
+        color: grey important;
+        font-weight: 400; 
+        margin: 25px 0 ;
+        font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        text-align: center;
+    }
+     
+    .for--info-image{
+        border: 3px solid #fff;
+    }
+    #myImage{  
+        box-shadow: 10px 10px 5px grey;
+    }
+      
+    .education{
+        margin: 15px 0 0 50px;
+    }
+    .for-quote-image{
+        height: 50vh;
+    }
+    .for-quote{
+        background: #fff;
+        border-radius: 4px;
+        padding: 38px 20px;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    }
+    
+        /* for services */
+    
+    .services{
+        background-color: #F0F0F0;
+    }
+    .for--work-border{
+        background: #fff;
+        border-radius: 4px;
+        padding: 38px 20px;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    }
+    .for--input{
+        border: 8px solid #fff;
+        box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+        margin-top: 50px;
+        align-items: center;
+    }
+    .for--input-info{
+        display: flex;
+    }
+    
+    .box-for-info{
+        border:1px solid #e1e1e1;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .form-control{
+        width: 94%;
+    }
+    
+    /* for trials */
+    
+    
